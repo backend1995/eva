@@ -1,0 +1,112 @@
+<!--
+  Generated template for the SeptimoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>El Odio (La Haine)</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+    <ion-list>
+        <ion-img width="500" height="200" src="assets/imgs/16.jpg"></ion-img>
+        <ion-item>
+           <p>1995• 95m</p>
+            <p>El Odio</p>
+        </ion-item>
+        <ion-item>
+            <button ion-button block (tap)="click()"><ion-icon name="md-play"></ion-icon></button>
+           
+        </ion-item>
+        <ion-item>
+          <p>Valoración</p> <p>themoviedb.org</p>
+          <p>8.2/10</p>
+  
+        </ion-item>
+        <ion-item>
+            <button ion-button  (click)="accion1()">Leer Sinopsis </button>
+            <ion-card *ngIf="ocultar1" id="contenido">
+                <ion-card-header>
+                  Sinopsis          
+                </ion-card-header>
+                <ion-card-content >
+                   <p> Tras una noche de disturbios  </p>
+                   <p> en un barrio marginal de las afueras </p>
+                   <p>de París,</p>
+                    <p> tres amigos adolescentes,  </p>
+                    <p>Vinz, Saïd y Hubert (un judío, un árabe</p>
+                    <p> inmigrante y un boxeador amateur</p>
+                    <p> negro,respectivamente),</p>
+                    <p>son testigos de un hecho, en el que su </p>
+                     <p>amigo Abdel resulta herido por la policía.</p>
+                     <p>El deambular por la ciudad, la violencia </p>
+                     <p>entre bandas  y los conflictos con</p>
+                     <p>  la policía son las constantes en las  </p>
+                     <p> 24 horas siguientes de la vida de </p>
+                     <p>estos jóvenes</p>
+    
+                     
+                </ion-card-content>
+             </ion-card>
+        </ion-item>
+        <ion-item>
+          <p>Duración</p> <p>94 Minutos</p>
+          <p>Genero Drama | Crimen. Bandas/pandillas callejeras. Película de culto</p>
+        </ion-item>
+        <ion-item>
+            <h2>Director</h2>
+            <ion-avatar item-start>
+                <img src="assets/imgs/18.jpg">
+              </ion-avatar>
+              
+              <p>Mathieu Kassovitz</p>
+        </ion-item>
+   
+  <ion-item> 
+    
+      <h2 class="elenco">Elenco</h2>
+      <br/>
+      <hr>
+   
+  <ion-avatar item-start>
+      
+      <img src="assets/imgs/17.jpg">
+    </ion-avatar>
+    <h2>Vincent Cassel</h2>
+  </ion-item>
+  <ion-item>
+    <ion-avatar item-start>
+      <img src="assets/imgs/19.jpg">
+    </ion-avatar>
+    <h2>Hubert Koundé</h2>
+  </ion-item>
+  <ion-item>
+    <ion-avatar item-start>
+      <img src="assets/imgs/20.jpg">
+    </ion-avatar>
+    <h2>Saïd Taghmaoui</h2>
+  </ion-item>
+  <ion-item>
+    <ion-avatar item-start>
+      <img src="assets/imgs/21.jpg">
+    </ion-avatar>
+    <h2>Abdel Ahmed Ghili</h2>
+  </ion-item>
+  <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/22.jpg">
+      </ion-avatar>
+      <h2> Joseph Momo</h2>
+    </ion-item>
+    </ion-list>
+    
+  </ion-content>
+  
+  
+  

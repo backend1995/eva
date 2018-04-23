@@ -1,0 +1,31 @@
+<ion-header >
+  <ion-navbar>
+    <ion-title >Peliculas Gratis</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item  (tap)="ir()">
+      <ion-card>
+        <img src="assets/imgs/3.jpg"/>
+        <div class="card-title">Cine Arte</div>
+        <div class="card-subtitle"> <ion-icon name="ios-heart">64 </ion-icon>Likes</div>
+      </ion-card>
+    </ion-item>
+    <ion-item (tap)="ir1()">
+      <ion-card>
+        <img src="assets/imgs/2.jpeg"/>
+        <div class="card-title">Cine De Culto</div>
+        <div class="card-subtitle"> <ion-icon name="ios-heart">94 </ion-icon>Likes</div>
+      </ion-card>
+    </ion-item>
+    <ion-item (tap)="ir2()">
+      <ion-card>
+        <img src="assets/imgs/1.jpg"/>
+        <div class="card-title">Amsterdam</div>
+        <div class="card-subtitle"> <ion-icon name="ios-heart">104 </ion-icon>Likes</div>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+</ion-content>
